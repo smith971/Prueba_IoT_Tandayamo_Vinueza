@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Prueba IoT 2023</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid position-relative d-flex p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Sidebar Start -->
+        <div class="sidebar pe-4 pb-3">
+            <nav class="navbar bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand mx-4 mb-3">
+                    <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>Prueba de IoT</h3>
+                </a>
+                <div class="d-flex align-items-center ms-4 mb-4">
+                    <div class="position-relative">
+                        <a href="img/user.png"><img src="img/user.png" alt="" width="300" height="300" border="0" class="rounded-circle" style="width: 40px; height: 40px;"></a>
+                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+                  </div>
+                    <div class="ms-3">
+                        <h6 class="mb-0">Tandayamo, Vinueza</h6>
+                        <span>IoT/2023</span>
+                    </div>
+                </div>
+              <div class="navbar-nav w-100">
+                  <a href="index.html" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a></div>
+            </nav>
+        </div>
+        <!-- Sidebar End -->
+
+
+        <!-- Content Start -->
+        <div class="content">
+            <!-- Navbar Start -->
+            
+            <!-- Navbar End -->
+
+
+            <!-- Sale & Revenue Start -->
+			
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+				
+				
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                           <i class="fa fa-solid fa-temperature-three-quarters fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Temperatura</p>
+                                <h6 class="mb-0">24 °C</h6>
+                          </div>
+                        </div>
+                    </div>
+					
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                             <i class="fa fa-sharp fa-solid fa-umbrella fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Humedad ambiental </p>
+                                <h6 class="mb-0">78 % </h6>
+                            </div>
+                        </div>
+                    </div>
+					
+                    <div class="col-sm-6 col-xl-3">
+                      <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4"> 
+					  <i class="fa fa-solid fa-wind fa-3x text-primary"></i>
+                        <div class="ms-3">
+                            <p class="mb-2">Direccion del viento </p>
+                          <h6 class="mb-0">260 °</h6>
+                          </div>
+                      </div>
+                    </div>
+					
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-light fa-wind fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Intensidad del viento </p>
+                                <h6 class="mb-0">97 km/h </h6>
+                            </div>
+                        </div>
+                    </div>
+					
+				  <div class="col-sm-6 col-xl-3">
+                        <div class="bg-secondary rounded d-flex align-items-center justify-content-between p-4">
+                            <i class="fa fa-solid fa-cloud-rain fa-3x text-primary"></i>
+                            <div class="ms-3">
+                                <p class="mb-2">Lluvia </p>
+                                <h6 class="mb-0">25 mm/h </h6>
+                            </div>
+                        </div>
+                    </div>
+					
+					
+                </div>
+            </div>
+            <!-- Sale & Revenue End -->
+
+
+            <!-- Sales Chart Start -->
+            <!-- Sales Chart End -->
+            <!-- Recent Sales Start -->
+<div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary text-center rounded p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h6 class="mb-0">Registros de la Estación 1 </h6>
+                        <a href="">Show All</a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table text-start align-middle table-bordered table-hover mb-0">
+                            <thead>
+                                <tr class="text-white">
+                                    <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                                    <th scope="col">Fecha y hora </th>
+                                    <th scope="col"><div align="center">Temperatura</div></th>
+                                    <th scope="col"><div align="center">Humedad</div></th>
+                                    <th scope="col"><p align="center">Dirección del viento </p>                                    </th>
+                                    <th scope="col"><div align="center">Intensidad del viento </div></th>
+                                    <th scope="col"><div align="center">Lluvia</div></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>2023-02-10 02:05:40 </td>
+                                    <td><div align="center">33</div></td>
+                                    <td><div align="center">91</div></td>
+                                    <td><div align="center">224</div></td>
+                                    <td><div align="center">84</div></td>
+                                    <td> <div align="center">43</div></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>2023-02-10 02:05:45</td>
+                                    <td><div align="center">41</div></td>
+                                    <td><div align="center">85</div></td>
+                                    <td><div align="center">222</div></td>
+                                    <td><div align="center">94</div></td>
+                                    <td><div align="center">18</div></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>2023-02-10 02:05:50</td>
+                                    <td><div align="center">43</div></td>
+                                    <td><div align="center">84</div></td>
+                                    <td><div align="center">140</div></td>
+                                    <td><div align="center">82</div></td>
+                                    <td><div align="center">35</div></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>2023-02-10 02:05:55</td>
+                                    <td><div align="center">37</div></td>
+                                    <td><div align="center">74</div></td>
+                                    <td><div align="center">197</div></td>
+                                    <td><div align="center">88</div></td>
+                                    <td><div align="center">35</div></td>
+                                </tr>
+                                <tr>
+                                  <td height="29"><input class="form-check-input" type="checkbox"></td>
+                                    <td>2023-02-10 02:06:00</td>
+                                    <td><div align="center">24</div></td>
+                                    <td><div align="center">78</div></td>
+                                    <td><div align="center">260</div></td>
+                                    <td><div align="center">97</div></td>
+                                    <td><div align="center">25</div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+          </div>
+            <!-- Recent Sales End -->
+			
+			
+			
+			
+			
+			
+			
+			            <!-- Recent Sales Start -->
+<div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary text-center rounded p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h6 class="mb-0">Registros de la Estación 2 </h6>
+                        <a href="">Show All</a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table text-start align-middle table-bordered table-hover mb-0">
+                            <thead>
+                                <tr class="text-white">
+                                    <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                                    <th scope="col">Fecha y hora </th>
+                                    <th scope="col"><div align="center">Temperatura</div></th>
+                                    <th scope="col"><div align="center">Humedad</div></th>
+                                    <th scope="col"><p align="center">Dirección del viento </p>                                    </th>
+                                    <th scope="col"><div align="center">Intensidad del viento </div></th>
+                                    <th scope="col"><div align="center">Lluvia</div></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>2023-02-10 02:05:27 </td>
+                                    <td><div align="center">25</div></td>
+                                    <td><div align="center">88</div></td>
+                                    <td><div align="center">176</div></td>
+                                    <td><div align="center">27</div></td>
+                                    <td><div align="center">34</div></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>2023-02-10 02:05:32</td>
+                                    <td><div align="center">28</div></td>
+                                    <td><div align="center">75</div></td>
+                                    <td><div align="center">186</div></td>
+                                    <td><div align="center">48</div></td>
+                                    <td><div align="center">25</div></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>2023-02-10 02:05:37</td>
+                                    <td><div align="center">36</div></td>
+                                    <td><div align="center">65</div></td>
+                                    <td><div align="center">154</div></td>
+                                    <td><div align="center">69</div></td>
+                                    <td><div align="center">37</div></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>2023-02-10 02:05:42</td>
+                                    <td><div align="center">42</div></td>
+                                    <td><div align="center">69</div></td>
+                                    <td><div align="center">136</div></td>
+                                    <td><div align="center">59</div></td>
+                                    <td><div align="center">28</div></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>2023-02-10 02:05:47</td>
+                                    <td><div align="center">16</div></td>
+                                    <td><div align="center">45</div></td>
+                                    <td><div align="center">210</div></td>
+                                    <td><div align="center">82</div></td>
+                                    <td><div align="center">18</div></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+          </div>
+            <!-- Recent Sales End -->
+
+
+            <!-- Widgets Start -->
+            <!-- Widgets End -->
+            <!-- Footer Start -->
+<div class="container-fluid pt-4 px-4">
+                <div class="bg-secondary rounded-top p-4">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 text-center text-sm-start">
+                            &copy; <a href="#">Tandayamo Smith, Vinueza Israel </a></div>
+                        <div class="col-12 col-sm-6 text-center text-sm-end">
+                            <p>
+                              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                            Universidad Tecnica del Norte</p>
+                            <p>Facultad de Ingenieria en Ciencias Aplicadas<br>
+                              Ingenieria en Telecomunicaciones</p>
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+          </div>
+            <!-- Footer End -->
+        </div>
+        <!-- Content End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/chart/chart.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
